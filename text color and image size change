@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+    <title>
+        MY FOODIE BLOG
+    </title> 
+
+<head>
+<body>
+    
+    <h1 onmouseover="style.color='red'" onmouseout="style.color='black'">Home</h1>
+    
+</head>
+<p>This website is about my foodie blog.
+    In this website I will be talking about the variety of food,
+     unhealthy food, healthy food, unedible food, edible food 
+     and tandoori chicken, Fruits and berries, Apples, Avocados, Bananas, Blueberries, Oranges, Strawberries, Eggs, Meats, Lean beef, Drugs, Chicken, Lamb, Nuts and seeds, Almonds, Chia seeds, Coconuts, Macadamia nuts, Walnuts, Brazil nuts, Vegetables, Asparagus, Bell peppers, Broccoli, Carrots, Cauliflower, Cucumber, Garlic, Kale, Onions, Tomatoes, Fish and seafood, Salmon, Sardines, Shellfish, Shrimp, Trout, Tuna, Grains, Brown rice, Oats, Quinoa, Breads, Ezekiel bread, Legumes, Green beans, Kidney beans, Lentils, Peanuts, Dairy, Cheese, Yogurt, Fats and oils, Extra-virgin olive oil, Coconut oil, Tubers, Potatoes, Sweet potatoes, and Apple cider vinegar 
+    </p>
+</body>
+
+<script>
+    function bigImg(x) {
+      x.style.height = "64px";
+      x.style.width = "64px";
+    }
+    
+    function normalImg(x) {
+      x.style.height = "32px";
+      x.style.width = "32px";
+    }
+    </script>
+    </head>
+    <body>
+    
+    <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="https://i.pinimg.com/originals/27/4c/5a/274c5a39ef61277d5f1344490c24e9df.gif" alt="Smiley" width="32" height="32">
+
+    <body>
+    <h1>
+        <center>
+        <button>Next Page</button>
+    </center>
+    </h1>
+</body>
+    
+<body id="bg">
+        <center>
+        <p1>
+            <input type="radio" name="t"  onclick="document.getElementById('bg').style.background='#808080'" >Dark Mode
+            <input type="radio" name="t"  onclick="document.getElementById('bg').style.background='#FFFFFF'" >Light Mode
+        </p1>
+        </center>
+</body>
+
+</html>
